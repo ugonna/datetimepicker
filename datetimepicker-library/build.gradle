@@ -4,17 +4,12 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.android.support:support-v4:13.0.0'
-}
-
 android {
     compileSdkVersion 19
     buildToolsVersion "19.0.0"
 
     defaultConfig {
-        minSdkVersion 7
+        minSdkVersion 11
         targetSdkVersion 19
         versionName project.VERSION_NAME
         versionCode Integer.parseInt(project.VERSION_CODE)
@@ -33,4 +28,4 @@ android {
 	}
 }
 
-apply from: '../maven_push.gradle'
+//apply from: '../maven_push.gradle'

@@ -7,13 +7,16 @@ https://android.googlesource.com/platform/frameworks/opt/datetimepicker/
 
 DateTimePicker is a library which contains the beautiful DatePicker and TimePicker that can be seen in the new Google Agenda app.
 
-**This picker is available for 2.1+**
+I've removed all requirements for the support library and for nineoldandroids, so this works for projects that do not want the support
+
+library
+
+**This modified version of the picker is available for 3.1+. For 2.1+, look [upstream][1]**.
 
 You have a recurrence picker in the same style [here](https://github.com/Shusshu/Android-RecurrencePicker).
 
 ## WARNING
 
-* Requires android-support-v4 and [NineOldAndroids][5]
 * Accessibility is missing for DatePicker on all devices and Below ICS devices for TimePicker.
 * Scroll adjustment is missing below ICS devices for TimePicker and DatePicker.
 
@@ -21,27 +24,19 @@ You have a recurrence picker in the same style [here](https://github.com/Shusshu
 
 This library reproduces as much as possible the original picker contained in the new Google Agenda app.
 
-![Example Image][1]
+![Example Image][2]
 
-Try out the sample APK [here][2]
+Try out the sample APK [here][3]
 
-Or browse the [source code of the sample application][3] for a complete example of use.
-
-## Including in your project
-
-Last version is 0.0.1
-
-Just add the following statement in your build.gradle
-
-    compile 'com.github.flavienlaurent.datetimepicker:library:VERSION'
+Or browse the [source code of the sample application][4] for a complete example of use.
 
 ## Usage
 
-Using the library is simple, just look at the source code of the provided sample [here][4]
+Using the library is simple, just look at the source code of the provided sample [here][5]
 
 ## Acknowledgements
 
-* Thanks to Google for this beautiful picker
+* Thanks to Google for this beautiful picker and to Flavien Laurent and others for putting it together
 
 ## License
 
@@ -59,8 +54,8 @@ Using the library is simple, just look at the source code of the provided sample
     See the License for the specific language governing permissions and
     limitations under the License.
 
- [1]: https://raw.github.com/biboune/datetimepicker/master/graphics/img1.png
- [2]: https://raw.github.com/biboune/datetimepicker/master/datetimepicker-sample.apk
- [3]: https://github.com/biboune/datetimepicker/tree/master/datetimepicker-sample
- [4]: https://github.com/biboune/datetimepicker/blob/master/datetimepicker-sample/src/com/fourmob/datetimepicker/sample/MainActivity.java
- [5]: http://nineoldandroids.com/
+ [1]: https://github.com/flavienlaurent/datetimepicker
+ [2]: https://raw.github.com/biboune/datetimepicker/master/graphics/img1.png
+ [3]: https://raw.github.com/biboune/datetimepicker/master/datetimepicker-sample.apk
+ [4]: https://github.com/biboune/datetimepicker/tree/master/datetimepicker-sample
+ [5]: https://github.com/biboune/datetimepicker/blob/master/datetimepicker-sample/src/com/fourmob/datetimepicker/sample/MainActivity.java
