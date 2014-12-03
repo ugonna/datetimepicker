@@ -1,3 +1,5 @@
+FORK COMPATIBLE FROM ANDROID 2.3 WITH MATERIAL DESIGN (maybe 2.1, i can't try it on 2.1 device)
+
 Official source:
 
 https://android.googlesource.com/platform/frameworks/opt/datetimepicker/
@@ -6,8 +8,6 @@ https://android.googlesource.com/platform/frameworks/opt/datetimepicker/
 #DateTimePicker 
 
 DateTimePicker is a library which contains the beautiful DatePicker and TimePicker that can be seen in the new Google Agenda app.
-
-**This picker is available for 2.1+**
 
 You have a recurrence picker in the same style [here](https://github.com/Shusshu/Android-RecurrencePicker).
 
