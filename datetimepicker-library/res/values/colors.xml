@@ -26,6 +26,7 @@
     <color name="title_color_dark">#FFCD8500</color>
     <color name="title_border">#FF282828</color>
 
+    <color name="material_gray">#E0E0E0</color>
     <color name="list_item_color_light">#FFEEEEEE</color>
     <color name="list_item_color_dark">#FFBBBBBB</color>
     <color name="list_item_selected_color_light">#FFFFFFFF</color>
